@@ -1,0 +1,157 @@
+/* Zaventa Auth Custom Styles - Professional Business Edition */
+:root {
+  --zaventa-primary: #0f172a;
+  --zaventa-accent: #0ea5e9;
+  --zaventa-secondary: #06b6d4;
+  --zaventa-tertiary: #2563eb;
+  --zaventa-bg: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  --zaventa-text: #1e293b;
+  --zaventa-text-light: #64748b;
+  --zaventa-border: #e2e8f0;
+  --zaventa-success: #10b981;
+  --zaventa-danger: #ef4444;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background: var(--zaventa-bg);
+  color: var(--zaventa-text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.auth-container {
+  max-width: 420px;
+  width: 100%;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.1), 0 0 1px rgba(15, 23, 42, 0.08);
+  padding: 3rem 2.5rem;
+  animation: slideUp 0.4s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.auth-title {
+  background: linear-gradient(135deg, var(--zaventa-primary) 0%, var(--zaventa-tertiary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.75rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+.auth-subtitle {
+  color: var(--zaventa-text-light);
+  font-size: 0.95rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.auth-btn {
+  width: 100%;
+  background: linear-gradient(135deg, var(--zaventa-primary) 0%, var(--zaventa-tertiary) 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.95rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.15);
+  letter-spacing: 0.3px;
+}
+
+.auth-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.2);
+}
+
+.auth-btn:active {
+  transform: translateY(0);
+}
+
+.auth-link {
+  color: var(--zaventa-accent);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.auth-link:hover {
+  color: var(--zaventa-secondary);
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 0.6rem;
+  color: var(--zaventa-text);
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.2px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border: 2px solid var(--zaventa-border);
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #fafbfc;
+  color: var(--zaventa-text);
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.input-field:hover {
+  border-color: #cbd5e1;
+  background: #fff;
+}
+
+.input-field:focus {
+  border-color: var(--zaventa-accent);
+  background: #fff;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
+}
+
+.error-message {
+  color: var(--zaventa-danger);
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
