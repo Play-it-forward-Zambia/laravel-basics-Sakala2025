@@ -51,13 +51,12 @@
                     The simple, powerful booking system for salons, clinics, tutors, photographers, and service-based businesses.
                 </p>
                 <div class="hero-buttons">
-                    <a href="{{ route('services.list') }}" class="btn btn-light">
+                    <a href="{{ route('services.list') }}" class="btn btn-primary">
                         <i class="fas fa-arrow-right"></i> Browse Services
                     </a>
                     @guest
                         <a href="{{ route('register') }}" class="btn btn-primary">
                             <i class="fas fa-arrow-right"></i> Start for Free
->>>>>>> c0b4aa7d967d4b89e69a70bd9cdda89d6fc6679f
                         </a>
                     @endguest
                 </div>
@@ -65,92 +64,50 @@
         </section>
 
         <!-- Features Section -->
-<<<<<<< HEAD
-        <section class="features-section">
+        <section style="background: #ffffff; padding: 5rem 2rem; margin-top: 0;">
             <div class="container">
-                <h2>Why Choose Zaventa?</h2>
+                <h2 style="text-align: center; font-size: 2.4rem; color: #2d3748; margin-bottom: 3.5rem; font-weight: 800; letter-spacing: -0.5px;">Why Choose Zaventa?</h2>
                 <div class="row g-4">
                     <div class="col-md-6 col-lg-4">
                         <div class="feature-card">
-                            <i class="fas fa-mobile-alt"></i>
-                            <h3>Easy to Use</h3>
-                            <p>Simple, clean interface that your customers will love. No learning curve.</p>
-=======
-        <section style="background: white; padding: 5rem 2rem; margin-top: 3rem;">
-            <div class="container">
-                <h2 style="text-align: center; font-size: 2.5rem; color: #333; margin-bottom: 3rem; font-weight: 700;">Why Choose Zaventa?</h2>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="feature-card">
-                            <i class="fas fa-mobile-alt" style="font-size: 3rem; color: #667eea; margin-bottom: 1rem; display: block;"></i>
-                            <h3 style="font-size: 1.5rem; color: #333; margin-bottom: 1rem;">Easy to Use</h3>
-                            <p style="color: #666;">Simple, clean interface that your customers will love. No learning curve.</p>
->>>>>>> c0b4aa7d967d4b89e69a70bd9cdda89d6fc6679f
+                            <i class="fas fa-mobile-alt" style="font-size: 2.8rem; color: #6366f1; margin-bottom: 1.2rem; display: block;"></i>
+                            <h3 style="font-size: 1.35rem; color: #2d3748; margin-bottom: 1rem; font-weight: 700;">Easy to Use</h3>
+                            <p style="color: #6b7280; font-size: 0.95rem;">Simple, clean interface that your customers will love. No learning curve.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="feature-card">
-<<<<<<< HEAD
-                            <i class="fas fa-clock"></i>
-                            <h3>Save Time</h3>
-                            <p>Automate bookings, reduce no-shows, and manage your schedule effortlessly.</p>
-=======
-                            <i class="fas fa-clock" style="font-size: 3rem; color: #667eea; margin-bottom: 1rem; display: block;"></i>
-                            <h3 style="font-size: 1.5rem; color: #333; margin-bottom: 1rem;">Save Time</h3>
-                            <p style="color: #666;">Automate bookings, reduce no-shows, and manage your schedule effortlessly.</p>
->>>>>>> c0b4aa7d967d4b89e69a70bd9cdda89d6fc6679f
+                            <i class="fas fa-clock" style="font-size: 2.8rem; color: #6366f1; margin-bottom: 1.2rem; display: block;"></i>
+                            <h3 style="font-size: 1.35rem; color: #2d3748; margin-bottom: 1rem; font-weight: 700;">Save Time</h3>
+                            <p style="color: #6b7280; font-size: 0.95rem;">Automate bookings, reduce no-shows, and manage your schedule effortlessly.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="feature-card">
-<<<<<<< HEAD
-                            <i class="fas fa-users"></i>
-                            <h3>Customer Friendly</h3>
-                            <p>Customers can book anytime without creating an account. Instant confirmation.</p>
-=======
-                            <i class="fas fa-users" style="font-size: 3rem; color: #667eea; margin-bottom: 1rem; display: block;"></i>
-                            <h3 style="font-size: 1.5rem; color: #333; margin-bottom: 1rem;">Customer Friendly</h3>
-                            <p style="color: #666;">Customers can book anytime without creating an account. Instant confirmation.</p>
->>>>>>> c0b4aa7d967d4b89e69a70bd9cdda89d6fc6679f
+                            <i class="fas fa-users" style="font-size: 2.8rem; color: #6366f1; margin-bottom: 1.2rem; display: block;"></i>
+                            <h3 style="font-size: 1.35rem; color: #2d3748; margin-bottom: 1rem; font-weight: 700;">Customer Friendly</h3>
+                            <p style="color: #6b7280; font-size: 0.95rem;">Customers can book anytime without creating an account. Instant confirmation.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="feature-card">
-<<<<<<< HEAD
-                            <i class="fas fa-chart-line"></i>
-                            <h3>Grow Your Business</h3>
-                            <p>Track bookings, manage services, and understand your customer behavior.</p>
-=======
-                            <i class="fas fa-chart-line" style="font-size: 3rem; color: #667eea; margin-bottom: 1rem; display: block;"></i>
-                            <h3 style="font-size: 1.5rem; color: #333; margin-bottom: 1rem;">Grow Your Business</h3>
-                            <p style="color: #666;">Track bookings, manage services, and understand your customer behavior.</p>
->>>>>>> c0b4aa7d967d4b89e69a70bd9cdda89d6fc6679f
+                            <i class="fas fa-chart-line" style="font-size: 2.8rem; color: #6366f1; margin-bottom: 1.2rem; display: block;"></i>
+                            <h3 style="font-size: 1.35rem; color: #2d3748; margin-bottom: 1rem; font-weight: 700;">Grow Your Business</h3>
+                            <p style="color: #6b7280; font-size: 0.95rem;">Track bookings, manage services, and understand your customer behavior.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="feature-card">
-<<<<<<< HEAD
-                            <i class="fas fa-lock"></i>
-                            <h3>Secure & Reliable</h3>
-                            <p>Your data is safe with us. Built on enterprise-grade Laravel framework.</p>
-=======
-                            <i class="fas fa-lock" style="font-size: 3rem; color: #667eea; margin-bottom: 1rem; display: block;"></i>
-                            <h3 style="font-size: 1.5rem; color: #333; margin-bottom: 1rem;">Secure & Reliable</h3>
-                            <p style="color: #666;">Your data is safe with us. Built on enterprise-grade Laravel framework.</p>
->>>>>>> c0b4aa7d967d4b89e69a70bd9cdda89d6fc6679f
+                            <i class="fas fa-lock" style="font-size: 2.8rem; color: #6366f1; margin-bottom: 1.2rem; display: block;"></i>
+                            <h3 style="font-size: 1.35rem; color: #2d3748; margin-bottom: 1rem; font-weight: 700;">Secure & Reliable</h3>
+                            <p style="color: #6b7280; font-size: 0.95rem;">Your data is safe with us. Built on enterprise-grade Laravel framework.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4">
                         <div class="feature-card">
-<<<<<<< HEAD
-                            <i class="fas fa-cog"></i>
-                            <h3>Fully Customizable</h3>
-                            <p>Add services, set your prices, and manage your bookings your way.</p>
-=======
-                            <i class="fas fa-cog" style="font-size: 3rem; color: #667eea; margin-bottom: 1rem; display: block;"></i>
-                            <h3 style="font-size: 1.5rem; color: #333; margin-bottom: 1rem;">Fully Customizable</h3>
-                            <p style="color: #666;">Add services, set your prices, and manage your bookings your way.</p>
->>>>>>> c0b4aa7d967d4b89e69a70bd9cdda89d6fc6679f
+                            <i class="fas fa-cog" style="font-size: 2.8rem; color: #6366f1; margin-bottom: 1.2rem; display: block;"></i>
+                            <h3 style="font-size: 1.35rem; color: #2d3748; margin-bottom: 1rem; font-weight: 700;">Fully Customizable</h3>
+                            <p style="color: #6b7280; font-size: 0.95rem;">Add services, set your prices, and manage your bookings your way.</p>
                         </div>
                     </div>
                 </div>
@@ -158,115 +115,59 @@
         </section>
 
         <!-- How It Works Section -->
-<<<<<<< HEAD
-        <section class="how-it-works">
+        <section style="padding: 5rem 2rem; background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%); color: white; margin-top: 0;">
             <div class="container">
-                <h2>How Zaventa Works</h2>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="step-item">
-                            <div class="step-number">1</div>
-                            <h3>Sign Up</h3>
-                            <p>Create your account in seconds and set up your business profile.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="step-item">
-                            <div class="step-number">2</div>
-                            <h3>Add Services</h3>
-                            <p>List your services with pricing and duration to make them bookable.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="step-item">
-                            <div class="step-number">3</div>
-                            <h3>Get Bookings</h3>
-                            <p>Customers discover and book your services instantly.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <div class="step-item">
-                            <div class="step-number">4</div>
-                            <h3>Manage & Grow</h3>
-                            <p>View all bookings, update statuses, and scale your business.</p>
-                        </div>
-=======
-        <section style="padding: 5rem 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; margin-top: 3rem;">
-            <div class="container">
-                <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 3rem; font-weight: 700;">How Zaventa Works</h2>
+                <h2 style="text-align: center; font-size: 2.4rem; margin-bottom: 3.5rem; font-weight: 800; letter-spacing: -0.5px;">How Zaventa Works</h2>
                 <div class="row g-4">
                     <div class="col-md-6 col-lg-3" style="text-align: center;">
-                        <div style="background: rgba(255, 255, 255, 0.2); width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 2rem; font-weight: 700;">1</div>
-                        <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem;">Sign Up</h3>
-                        <p>Create your account in seconds and set up your business profile.</p>
+                        <div style="background: rgba(255, 255, 255, 0.15); width: 90px; height: 90px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2.2rem; font-weight: 800; color: #818cf8;">1</div>
+                        <h3 style="font-size: 1.25rem; margin-bottom: 0.8rem; font-weight: 700;">Sign Up</h3>
+                        <p style="font-size: 0.95rem; opacity: 0.95;">Create your account in seconds and set up your business profile.</p>
                     </div>
                     <div class="col-md-6 col-lg-3" style="text-align: center;">
-                        <div style="background: rgba(255, 255, 255, 0.2); width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 2rem; font-weight: 700;">2</div>
-                        <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem;">Add Services</h3>
-                        <p>List your services with pricing and duration to make them bookable.</p>
+                        <div style="background: rgba(255, 255, 255, 0.15); width: 90px; height: 90px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2.2rem; font-weight: 800; color: #818cf8;">2</div>
+                        <h3 style="font-size: 1.25rem; margin-bottom: 0.8rem; font-weight: 700;">Add Services</h3>
+                        <p style="font-size: 0.95rem; opacity: 0.95;">List your services with pricing and duration to make them bookable.</p>
                     </div>
                     <div class="col-md-6 col-lg-3" style="text-align: center;">
-                        <div style="background: rgba(255, 255, 255, 0.2); width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 2rem; font-weight: 700;">3</div>
-                        <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem;">Get Bookings</h3>
-                        <p>Customers discover and book your services instantly.</p>
+                        <div style="background: rgba(255, 255, 255, 0.15); width: 90px; height: 90px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2.2rem; font-weight: 800; color: #818cf8;">3</div>
+                        <h3 style="font-size: 1.25rem; margin-bottom: 0.8rem; font-weight: 700;">Get Bookings</h3>
+                        <p style="font-size: 0.95rem; opacity: 0.95;">Customers discover and book your services instantly.</p>
                     </div>
                     <div class="col-md-6 col-lg-3" style="text-align: center;">
-                        <div style="background: rgba(255, 255, 255, 0.2); width: 80px; height: 80px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 2rem; font-weight: 700;">4</div>
-                        <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem;">Manage & Grow</h3>
-                        <p>View all bookings, update statuses, and scale your business.</p>
->>>>>>> c0b4aa7d967d4b89e69a70bd9cdda89d6fc6679f
+                        <div style="background: rgba(255, 255, 255, 0.15); width: 90px; height: 90px; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2.2rem; font-weight: 800; color: #818cf8;">4</div>
+                        <h3 style="font-size: 1.25rem; margin-bottom: 0.8rem; font-weight: 700;">Manage & Grow</h3>
+                        <p style="font-size: 0.95rem; opacity: 0.95;">View all bookings, update statuses, and scale your business.</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- CTA Section -->
-<<<<<<< HEAD
-        <section class="cta-section">
+        <section style="background: #f9fafb; padding: 5rem 2rem; text-align: center; margin-top: 0; border-top: 1px solid #e5e7eb;">
             <div class="container">
-                <h2>Ready to Revolutionize Your Bookings?</h2>
-                <p>
+                <h2 style="font-size: 2.2rem; color: #2d3748; margin-bottom: 1.5rem; font-weight: 800; letter-spacing: -0.5px;">Ready to Revolutionize Your Bookings?</h2>
+                <p style="font-size: 1rem; color: #6b7280; margin-bottom: 2.5rem; max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.6;">
                     Join service-based businesses that are already saving time and delighting customers with Zaventa.
                 </p>
-                <div class="cta-buttons">
-                    <a href="{{ route('register') }}" class="btn btn-primary">
+                <div style="display: flex; gap: 1.2rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="{{ route('register') }}" class="btn btn-primary" style="font-weight: 600; padding: 0.85rem 2rem; background: #6366f1; color: white; text-decoration: none; border-radius: 8px; display: inline-flex; align-items: center; gap: 0.6rem; box-shadow: 0 4px 16px rgba(99, 102, 241, 0.3);">
                         <i class="fas fa-arrow-right"></i> Get Started Free
                     </a>
-                    <a href="{{ route('services.list') }}" class="btn btn-light">
+                    <a href="{{ route('services.list') }}" class="btn btn-secondary" style="font-weight: 600; padding: 0.85rem 2rem; background: #6366f1; color: white; text-decoration: none; border-radius: 8px; border: none; display: inline-flex; align-items: center; gap: 0.6rem;">
                         <i class="fas fa-arrow-right"></i> Browse Bookings
-=======
-        <section style="background: white; padding: 4rem 2rem; text-align: center; margin-top: 3rem;">
-            <div class="container">
-                <h2 style="font-size: 2rem; color: #333; margin-bottom: 2rem; font-weight: 700;">Ready to Revolutionize Your Bookings?</h2>
-                <p style="font-size: 1.1rem; color: #666; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
-                    Join service-based businesses that are already saving time and delighting customers with Zaventa.
-                </p>
-                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-                    <a href="{{ route('register') }}" class="btn btn-primary btn-lg" style="font-weight: 700;">
-                        <i class="fas fa-arrow-right" style="margin-right: 0.5rem;"></i>Get Started Free
-                    </a>
-                    <a href="{{ route('services.list') }}" class="btn btn-light btn-lg" style="font-weight: 700; color: #667eea;">
-                        <i class="fas fa-arrow-right" style="margin-right: 0.5rem;"></i>Browse Bookings
->>>>>>> c0b4aa7d967d4b89e69a70bd9cdda89d6fc6679f
                     </a>
                 </div>
             </div>
         </section>
 
         <!-- Footer -->
-        <footer>
-<<<<<<< HEAD
-            <p>&copy; 2026 Zaventa - Booking System. Made for Service Businesses.</p>
-            <p>Simplify bookings. Delight customers. Grow your business.</p>
-        </footer>
-
-=======
-            <p style="margin: 0;">&copy; 2026 Zaventa - Booking System. Made for Service Businesses.</p>
-            <p style="margin: 0.5rem 0 0 0; font-size: 0.9rem; opacity: 0.8;">Simplify bookings. Delight customers. Grow your business.</p>
+        <footer style="background: #2d3748; color: white; padding: 2.5rem; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.1);">
+            <p style="margin: 0; font-weight: 600; margin-bottom: 0.8rem;">&copy; 2026 Zaventa - Booking System. Made for Service Businesses.</p>
+            <p style="margin: 0; font-size: 0.9rem; opacity: 0.9;">Simplify bookings. Delight customers. Grow your business.</p>
         </footer>
 
         <!-- Bootstrap JS -->
->>>>>>> c0b4aa7d967d4b89e69a70bd9cdda89d6fc6679f
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
