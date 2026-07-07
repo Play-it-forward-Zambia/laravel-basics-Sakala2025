@@ -1,0 +1,237 @@
+/* Zaventa Auth - Modern Professional Design */
+:root {
+  --primary: #2d3748;
+  --primary-light: #4a5568;
+  --accent: #6366f1;
+  --accent-light: #818cf8;
+  --text-dark: #1f2937;
+  --text-light: #6b7280;
+  --border: #e5e7eb;
+  --bg: #f9fafb;
+  --white: #ffffff;
+  --success: #10b981;
+  --danger: #ef4444;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(135deg, var(--bg) 0%, #f3f4f6 100%);
+  color: var(--text-dark);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1.5rem;
+}
+
+.auth-container {
+  max-width: 420px;
+  width: 100%;
+  background: var(--white);
+  border-radius: 14px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08), 0 0 1px rgba(0, 0, 0, 0.05);
+  padding: 2.5rem;
+  animation: slideUp 0.4s ease-out;
+  border: 1px solid var(--border);
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.auth-title {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 1.65rem;
+  font-weight: 800;
+  margin-bottom: 0.6rem;
+  text-align: center;
+  letter-spacing: -0.3px;
+}
+
+.auth-subtitle {
+  color: var(--text-light);
+  font-size: 0.95rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-label {
+  display: block;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text-dark);
+  margin-bottom: 0.6rem;
+  letter-spacing: -0.2px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: all 0.2s ease;
+  background: var(--white);
+  color: var(--text-dark);
+  font-family: inherit;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+  background: var(--white);
+}
+
+.input-field::placeholder {
+  color: var(--text-light);
+}
+
+.error-message {
+  color: var(--danger);
+  font-size: 0.85rem;
+  margin-top: 0.4rem;
+  font-weight: 500;
+}
+
+.toggle-password {
+  color: var(--accent);
+  font-weight: 500;
+  font-size: 0.85rem;
+  transition: all 0.2s ease;
+}
+
+.toggle-password:hover {
+  color: var(--primary);
+}
+
+.auth-btn {
+  width: 100%;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  padding: 0.95rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.3);
+  letter-spacing: 0.2px;
+  margin-top: 1rem;
+}
+
+.auth-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(99, 102, 241, 0.4);
+}
+
+.auth-btn:active {
+  transform: translateY(0);
+}
+
+.auth-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.auth-link:hover {
+  color: var(--primary);
+}
+
+/* Form divider */
+div:has(> .auth-link) {
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.auth-link {
+  color: var(--zaventa-accent);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.auth-link:hover {
+  color: var(--zaventa-secondary);
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 0.6rem;
+  color: var(--zaventa-text);
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.2px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border: 2px solid var(--zaventa-border);
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #fafbfc;
+  color: var(--zaventa-text);
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.input-field:hover {
+  border-color: #cbd5e1;
+  background: #fff;
+}
+
+.input-field:focus {
+  border-color: var(--zaventa-accent);
+  background: #fff;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
+}
+
+.error-message {
+  color: var(--zaventa-danger);
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
